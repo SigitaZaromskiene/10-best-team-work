@@ -32,16 +32,19 @@
     body {
       font-family: sans-serif, Arial, Helvetica;
       font-size: 14px;
-      padding: 40px;
+      width: 960px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 60px;
+      margin-top: 80px;
     }
 
     nav {
       float: right;
       margin-top: 20.6px;
       margin-bottom: 20.6px;
-    }
-
-    nav > img {
     }
 
     nav > a {
@@ -67,6 +70,45 @@
     nav > a:last-child {
       margin-right: 25px;
     }
+    main {
+      display: inline-block;
+    }
+    main > img {
+      float: right;
+      width: 45%;
+    }
+
+    main > div {
+      float: left;
+      width: 40%;
+    }
+    h1 {
+      font-size: 50px;
+      color: #33358c;
+    }
+
+    p {
+      line-height: 1.5;
+      color: #939395;
+      font-weight: 500;
+      margin-bottom: 40px;
+    }
+
+    main > div > a {
+      border: 2px solid #fe62a9;
+      padding: 10px 40px;
+      border-radius: 30px;
+      background-color: #fe62a9;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    main > div > a:hover {
+      background-color: white;
+      color: #fe62a9;
+    }
   </style>
   <body>
     <header>
@@ -88,7 +130,7 @@
           minus fugiat hic distinctio quod et expedita praesentium quam
           eligendi. Illum.
         </p>
-        <a href="#">Leran more</a>
+        <a href="#">Learn more</a>
       </div>
       <img src="./img/main-img.png" alt="Team of people working" />
     </main>
