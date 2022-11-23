@@ -8,7 +8,7 @@ _website design project_
 
 This project is for educational porpuses only.
 
-Site published at: https://sigitazaromskiene.github.io/08-happy-weekend/
+Site published at: https://sigitazaromskiene.github.io/10-best-team-work/
 
 Design: [Best team workd](./img/best-team.jpg)
 
